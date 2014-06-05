@@ -1,0 +1,262 @@
+00:00.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Complex [1022:1410]
+	Flags: bus master, 66MHz, medium devsel, latency 32
+00: 22 10 10 14 06 00 20 02 00 00 00 06 00 20 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 22 10 10 14
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:01.0 VGA compatible controller [0300]: Advanced Micro Devices, Inc. [AMD/ATI] Richland [Radeon HD 8650G] [1002:990b] (prog-if 00 [VGA controller])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, fast devsel, latency 0, IRQ 47
+	Memory at e0000000 (32-bit, prefetchable) [size=256M]
+	I/O ports at 3000 [size=256]
+	Memory at f0200000 (32-bit, non-prefetchable) [size=256K]
+	Expansion ROM at <unassigned> [disabled]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [58] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [a0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [100] Vendor Specific Information: ID=0001 Rev=1 Len=010 <?>
+	Kernel driver in use: radeon
+00: 02 10 0b 99 07 04 10 00 00 00 00 03 10 00 80 00
+10: 08 00 00 e0 01 30 00 00 00 00 20 f0 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:01.1 Audio device [0403]: Advanced Micro Devices, Inc. [AMD/ATI] Trinity HDMI Audio Controller [1002:9902]
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, fast devsel, latency 0, IRQ 46
+	Memory at f0244000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [58] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [a0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [100] Vendor Specific Information: ID=0001 Rev=1 Len=010 <?>
+	Kernel driver in use: snd_hda_intel
+00: 02 10 02 99 07 04 10 00 00 00 03 04 10 00 80 00
+10: 00 40 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 02 00 00
+
+00:04.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Port [1022:1414] (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: f0100000-f01fffff
+	Capabilities: [50] Power Management version 3
+	Capabilities: [58] Express Root Port (Slot+), MSI 00
+	Capabilities: [a0] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [b0] Subsystem: Advanced Micro Devices, Inc. [AMD] Device [1022:1234]
+	Capabilities: [b8] HyperTransport: MSI Mapping Enable+ Fixed+
+	Capabilities: [100] Vendor Specific Information: ID=0001 Rev=1 Len=010 <?>
+	Kernel driver in use: pcieport
+00: 22 10 14 14 07 00 10 00 00 00 04 06 10 00 01 00
+10: 00 00 00 00 00 00 00 00 00 01 01 00 21 21 00 00
+20: 10 f0 10 f0 f1 ff 01 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:05.0 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Root Port [1022:1415] (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Memory behind bridge: f0000000-f00fffff
+	Prefetchable memory behind bridge: 00000000f0300000-00000000f03fffff
+	Capabilities: [50] Power Management version 3
+	Capabilities: [58] Express Root Port (Slot+), MSI 00
+	Capabilities: [a0] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [b0] Subsystem: Advanced Micro Devices, Inc. [AMD] Device [1022:1234]
+	Capabilities: [b8] HyperTransport: MSI Mapping Enable+ Fixed+
+	Capabilities: [100] Vendor Specific Information: ID=0001 Rev=1 Len=010 <?>
+	Kernel driver in use: pcieport
+00: 22 10 15 14 07 00 10 00 00 00 04 06 10 00 01 00
+10: 00 00 00 00 00 00 00 00 00 02 02 00 f1 01 00 00
+20: 00 f0 00 f0 31 f0 31 f0 00 00 00 00 00 00 00 00
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:10.0 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] FCH USB XHCI Controller [1022:7814] (rev 09) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at f0248000 (64-bit, non-prefetchable) [size=8K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [70] MSI: Enable- Count=1/8 Maskable- 64bit+
+	Capabilities: [90] MSI-X: Enable+ Count=8 Masked-
+	Capabilities: [a0] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [100] Latency Tolerance Reporting
+	Kernel driver in use: xhci_hcd
+00: 22 10 14 78 06 04 10 00 09 30 03 0c 10 00 80 00
+10: 04 80 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:11.0 SATA controller [0106]: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] [1022:7801] (prog-if 01 [AHCI 1.0])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 64, IRQ 45
+	I/O ports at 3118 [size=8]
+	I/O ports at 3124 [size=4]
+	I/O ports at 3110 [size=8]
+	I/O ports at 3120 [size=4]
+	I/O ports at 3100 [size=16]
+	Memory at f024e000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: [50] MSI: Enable+ Count=1/8 Maskable- 64bit+
+	Capabilities: [70] SATA HBA v1.0
+	Kernel driver in use: ahci
+00: 22 10 01 78 07 04 30 02 00 01 06 01 10 40 00 00
+10: 19 31 00 00 25 31 00 00 11 31 00 00 21 31 00 00
+20: 01 31 00 00 00 e0 24 f0 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:12.0 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] FCH USB OHCI Controller [1022:7807] (rev 11) (prog-if 10 [OHCI])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 18
+	Memory at f024d000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci-pci
+00: 22 10 07 78 17 00 a0 02 11 10 03 0c 10 20 80 00
+10: 00 d0 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00
+
+00:12.2 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] FCH USB EHCI Controller [1022:7808] (rev 11) (prog-if 20 [EHCI])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 17
+	Memory at f024c000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [c0] Power Management version 2
+	Capabilities: [e4] Debug port: BAR=1 offset=00e0
+	Kernel driver in use: ehci-pci
+00: 22 10 08 78 17 00 b0 02 11 20 03 0c 10 20 00 00
+10: 00 c0 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 c0 00 00 00 00 00 00 00 00 02 00 00
+
+00:13.0 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] FCH USB OHCI Controller [1022:7807] (rev 11) (prog-if 10 [OHCI])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 18
+	Memory at f024b000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci-pci
+00: 22 10 07 78 17 00 a0 02 11 10 03 0c 10 20 80 00
+10: 00 b0 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00
+
+00:13.2 USB controller [0c03]: Advanced Micro Devices, Inc. [AMD] FCH USB EHCI Controller [1022:7808] (rev 11) (prog-if 20 [EHCI])
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 32, IRQ 17
+	Memory at f024a000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [c0] Power Management version 2
+	Capabilities: [e4] Debug port: BAR=1 offset=00e0
+	Kernel driver in use: ehci-pci
+00: 22 10 08 78 17 00 b0 02 11 20 03 0c 10 20 00 00
+10: 00 a0 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 c0 00 00 00 00 00 00 00 00 02 00 00
+
+00:14.0 SMBus [0c05]: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller [1022:780b] (rev 16)
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: 66MHz, medium devsel
+00: 22 10 0b 78 03 04 20 02 16 00 05 0c 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:14.2 Audio device [0403]: Advanced Micro Devices, Inc. [AMD] FCH Azalia Controller [1022:780d] (rev 01)
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, slow devsel, latency 32, IRQ 16
+	Memory at f0240000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [50] Power Management version 2
+	Kernel driver in use: snd_hda_intel
+00: 22 10 0d 78 06 00 10 04 01 00 03 04 10 20 00 00
+10: 04 00 24 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 50 00 00 00 00 00 00 00 00 01 00 00
+
+00:14.3 ISA bridge [0601]: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge [1022:780e] (rev 11)
+	Subsystem: Lenovo Device [17aa:397c]
+	Flags: bus master, 66MHz, medium devsel, latency 0
+00: 22 10 0e 78 0f 00 20 02 11 00 01 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 7c 39
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:14.4 PCI bridge [0604]: Advanced Micro Devices, Inc. [AMD] FCH PCI Bridge [1022:780f] (rev 40) (prog-if 01 [Subtractive decode])
+	Flags: 66MHz, medium devsel
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=64
+00: 22 10 0f 78 03 00 a0 02 40 01 04 06 00 40 81 00
+10: 00 00 00 00 00 00 00 00 00 03 03 40 f0 00 80 22
+20: f0 ff 00 00 f0 ff 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.0 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 0 [1022:1400]
+	Flags: fast devsel
+00: 22 10 00 14 00 00 10 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.1 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 1 [1022:1401]
+	Flags: fast devsel
+00: 22 10 01 14 00 00 00 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.2 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 2 [1022:1402]
+	Flags: fast devsel
+00: 22 10 02 14 00 00 00 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.3 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 3 [1022:1403]
+	Flags: fast devsel
+	Capabilities: [f0] Secure device <?>
+	Kernel driver in use: k10temp
+00: 22 10 03 14 00 00 10 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 f0 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.4 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 4 [1022:1404]
+	Flags: fast devsel
+00: 22 10 04 14 00 00 00 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:18.5 Host bridge [0600]: Advanced Micro Devices, Inc. [AMD] Family 15h (Models 10h-1fh) Processor Function 5 [1022:1405]
+	Flags: fast devsel
+00: 22 10 05 14 00 00 00 00 00 00 00 06 00 00 80 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+01:00.0 Ethernet controller [0200]: Qualcomm Atheros QCA8172 Fast Ethernet [1969:10a0] (rev 10)
+	Subsystem: Lenovo Device [17aa:3806]
+	Flags: bus master, fast devsel, latency 0, IRQ 48
+	Memory at f0100000 (64-bit, non-prefetchable) [size=256K]
+	I/O ports at 2000 [size=128]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [58] Express Endpoint, MSI 00
+	Capabilities: [c0] MSI: Enable+ Count=1/16 Maskable+ 64bit+
+	Capabilities: [d8] MSI-X: Enable- Count=16 Masked-
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [180] Device Serial Number ff-97-15-c5-20-1a-06-ff
+	Kernel driver in use: alx
+00: 69 19 a0 10 07 00 10 00 10 00 00 02 10 00 00 00
+10: 04 00 10 f0 00 00 00 00 01 20 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 06 38
+30: 00 00 00 00 40 00 00 00 00 00 00 00 00 01 00 00
+
+02:00.0 Network controller [0280]: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter [168c:0036] (rev 01)
+	Subsystem: Lenovo Device [17aa:3026]
+	Flags: bus master, fast devsel, latency 0, IRQ 17
+	Memory at f0000000 (64-bit, non-prefetchable) [size=512K]
+	Expansion ROM at f0300000 [disabled] [size=64K]
+	Capabilities: [40] Power Management version 2
+	Capabilities: [50] MSI: Enable- Count=1/4 Maskable+ 64bit+
+	Capabilities: [70] Express Endpoint, MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [140] Virtual Channel
+	Capabilities: [160] Device Serial Number 00-00-00-00-00-00-00-00
+	Kernel driver in use: ath9k
+00: 8c 16 36 00 06 00 10 00 01 00 80 02 10 00 00 00
+10: 04 00 00 f0 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 aa 17 26 30
+30: 00 00 ff ff 40 00 00 00 00 00 00 00 00 01 00 00
+
